@@ -8,9 +8,16 @@
 .gridSquare{
     width: 20px;
     height: 20px;
-    border: 1px solid black;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+    margin: -1px -1px;
+    /* box-sizing: border-box; */
+
 }
 
 .row{
     display: flex;
+    flex: 1 1 auto;
 }
