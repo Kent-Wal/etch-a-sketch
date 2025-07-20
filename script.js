@@ -1,5 +1,5 @@
-const grid = document.querySelector(".container");
-// const row = document.querySelector(".row");
+const container = document.querySelector(".container");
+const grid = document.querySelector(".grid");
 
 function createGrid() {
     for (let i = 0; i < 16; i++){
